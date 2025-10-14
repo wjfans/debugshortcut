@@ -1,0 +1,46 @@
+# Git ignore for Android/Gradle project
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE files
+*.iml
+.idea/
+
+# Gradle
+.gradle/
+# Ignore all build outputs
+build/
+**/build/
+
+# Local configuration
+local.properties
+
+# Logs
+*.log
+
+# Android/NDK build artifacts
+captures/
+.externalNativeBuild/
+.cxx/
+obj/
+
+# App packages
+*.apk
+*.ap_
+*.aab
+
+# Signing keys (do NOT commit secrets)
+*.keystore
+*.jks
+
+# Kotlin/Java compiled artifacts
+*.class
+
+# IntelliJ output
+out/
+
+# Crashlytics/Fabric (if used)
+crashlytics*.properties
+fabric.properties
