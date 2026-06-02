@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">USB偵錯捷徑</string>
+    <string name="intro_description">點擊下方按鈕，直接跳轉至系統「開發人員選項」頁面，快速找到 USB 偵錯開關。</string>
+    <string name="intro_limitation">注意：基於 Android 安全限制，本 App 無法直接開啟或關閉 USB 偵錯，需由您在設定頁面手動操作。</string>
+    <string name="btn_go">前往開發人員選項</string>
+    <string name="error_no_dev_options">無法開啟開發人員選項，請手動前往設定。</string>
+    <string name="check_skip_intro">下次直接跳轉，不顯示此說明</string>
+    <string name="tile_label">開發人員選項</string>
+    <string name="shortcut_short_label">開發者選項</string>
+    <string name="shortcut_long_label">前往開發人員選項</string>
 </resources>

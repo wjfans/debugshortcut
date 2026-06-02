@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">USB Debug Shortcut</string>
+    <string name="intro_description">Tap the button below to jump directly to Developer Options and quickly access the USB debugging toggle.</string>
+    <string name="intro_limitation">Note: Due to Android security restrictions, this app cannot enable or disable USB debugging directly. You need to toggle it manually on the settings page.</string>
+    <string name="btn_go">Go to Developer Options</string>
+    <string name="error_no_dev_options">Cannot open Developer Options. Please navigate there manually.</string>
+    <string name="check_skip_intro">Skip this screen next time</string>
+    <string name="tile_label">Developer Options</string>
+    <string name="shortcut_short_label">Dev Options</string>
+    <string name="shortcut_long_label">Go to Developer Options</string>
+</resources>
